@@ -1,6 +1,6 @@
 export TARGET = iphone:13.5:10.0
 export ARCHS = arm64
-INSTALL_TARGET_PROCESSES = ytd
+INSTALL_TARGET_PROCESSES = ytdownload
 include $(THEOS)/makefiles/common.mk
 XCODEPROJ_NAME = ytdownload
 ytdownload_XCODE_SCHEME = ytdownload
